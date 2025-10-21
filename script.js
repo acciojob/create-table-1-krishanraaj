@@ -1,6 +1,6 @@
 function insert_Row() {
     let table = document.getElementById("sampleTable");
-    let newRow = table.insertRow(1); // insert at top of data rows
+    let newRow = table.insertRow(1); // insert at top after header
 
     let cell1 = newRow.insertCell(0);
     let cell2 = newRow.insertCell(1);
