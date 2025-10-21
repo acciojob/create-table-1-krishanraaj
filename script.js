@@ -1,10 +1,12 @@
 function insert_Row() {
-    let table = document.getElementById("sampleTable");
-    let newRow = table.insertRow(1); // insert at top after header
+  let table = document.getElementById("sampleTable");
 
-    let cell1 = newRow.insertCell(0);
-    let cell2 = newRow.insertCell(1);
+  // Insert new row at the TOP (index 0)
+  let newRow = table.insertRow(0);
 
-    cell1.innerHTML = "New Cell1";
-    cell2.innerHTML = "New Cell2";
+  let cell1 = newRow.insertCell(0);
+  let cell2 = newRow.insertCell(1);
+
+  cell1.textContent = "New Cell1";
+  cell2.textContent = "New Cell2";
 }

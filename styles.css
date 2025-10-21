@@ -1,22 +1,19 @@
 table {
-    border-collapse: collapse;
-    width: 50%;
-    margin: 20px auto;
-    text-align: center;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px auto;
+  text-align: center;
 }
 
-th, td {
-    padding: 8px 12px;
-    border: 1px solid black;
+td {
+  border: 1px solid black;
+  padding: 8px 12px;
 }
 
-/* Place button at bottom with 2px margin */
-#insertButton {
-    position: fixed;
-    bottom: 2px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 6px 12px;
-    font-size: 16px;
-    cursor: pointer;
+input[type="button"] {
+  display: block;
+  margin: 10px auto 2px auto;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 16px;
 }
