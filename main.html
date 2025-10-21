@@ -1,39 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Create Table</title>
-  <link rel="stylesheet" href="styles.css">
+    <title>Create Table 1</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Dynamic Table</h1>
-    <button id="insertRow">Insert Row</button>
-
-    <table id="myTable">
-      <thead>
+    <table id="sampleTable" border="1">
         <tr>
-          <th>Name</th>
-          <th>Age</th>
-          <th>City</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>John</td>
-          <td>25</td>
-          <td>New York</td>
+            <th>Header1</th>
+            <th>Header2</th>
         </tr>
         <tr>
-          <td>Mary</td>
-          <td>30</td>
-          <td>Los Angeles</td>
+            <td>Row1 Cell1</td>
+            <td>Row1 Cell2</td>
         </tr>
-      </tbody>
     </table>
-  </div>
 
-  <script src="script.js"></script>
+    <!-- Button must be of type "button" -->
+    <input type="button" value="Insert row" onclick="insert_Row()">
+
+    <script src="script.js"></script>
 </body>
 </html>
