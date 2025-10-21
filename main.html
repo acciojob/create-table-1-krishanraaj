@@ -1,12 +1,26 @@
-<table id="sampleTable">
-  <tr>
-    <th>Header1</th>
-    <th>Header2</th>
-  </tr>
-  <tr>
-    <td>Existing1</td>
-    <td>Existing2</td>
-  </tr>
-</table>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table id="sampleTable" border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Row1 Cell1</td>
+            <td>Row1 Cell2</td>
+        </tr>
+        <tr>
+            <td>Row2 Cell1</td>
+            <td>Row2 Cell2</td>
+        </tr>
+    </table>
 
+    <input type="button" value="Insert Row" onclick="insert_Row()" id="insertButton">
+
+    <script src="script.js"></script>
+</body>
 </html>

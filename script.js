@@ -1,8 +1,10 @@
 function insert_Row() {
-    var table = document.getElementById("sampleTable");
-    var row = table.insertRow(1); // Insert below header
-    var cell1 = row.insertCell(0);
-    var cell2 = row.insertCell(1);
+    let table = document.getElementById("sampleTable");
+    let newRow = table.insertRow(1); // insert at top of data rows
+
+    let cell1 = newRow.insertCell(0);
+    let cell2 = newRow.insertCell(1);
+
     cell1.innerHTML = "New Cell1";
     cell2.innerHTML = "New Cell2";
 }
